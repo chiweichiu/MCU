@@ -17,7 +17,8 @@
 ## 8 bit 2-Line 範例
 ![alt LCD_control](https://github.com/chiweichiu/MCU/blob/main/GPIO/utils/LCD_control.JPG)
 - 先將PC14 PB14 PB15 PA0-7 設定為output
-- 再按照上圖流程設定PC14 PB14 PA0-7設定對應的data out 
+- 再按照上圖流程設定PC14 PB14 PA0-7設定對應的data out
+- PA7-0=0x48對應ascii code為'H' 
 - 每設定完一個operation後透過Eneable pin(PB15 dout)拉High再拉low
   即可完成對LCD的顯示
 
